@@ -22,3 +22,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing-page');
 });
+
+Route::get('/services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
+
+Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
+
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
+
+Route::get('/faq', [App\Http\Controllers\FaqController::class, 'index'])->name('faq');
+
+Route::get('/digitalmarketing', [App\Http\Controllers\LearnMoreController::class, 'index'])->name('digitalmarketing');

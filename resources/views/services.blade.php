@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="{{ URL::asset('css/homePage.css') }}" />
+<link rel="stylesheet" href="{{ URL::asset('css/servicesPage.css') }}" />
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <title>Landing page</title>
 </head>
@@ -17,7 +17,6 @@
     </div>
     <div class="right-navbar-side">
         <a href="http://magecode-task">Home</a>
-        <a href="services">Services</a>
         <a href="about">About</a>
         <a href="contact">Contact</a>
         <a href="faq">FAQ</a>
@@ -26,17 +25,16 @@
 </div>
 
 <div class="section-one">
-    <div class="lending-page-info">
-        <p id="header-one">DIGITAL</p>
-        <p id="header-two">MARKETING</p>
-        <p id="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing. 
-        Vestibulum rutrum metus at enim congue scelerisque. 
-        Sed suscipit metu non iaculis semper consectetur adipiscing elit.</p>
-        <a href="digitalmarketing"><button class="learnMore-button">LEARN MORE</button></a>
+    <div class="heading">
+        <p>Our services</p>
     </div>
-        
-    <div class="lending-page-image">
-        <img src="../images/illustration.jpg" id="illustration">
+    <div class="description">
+        <div class="description">
+            <p>Our services</p>
+        </div>
+        <div class="description">
+            <p>Our services</p>
+        </div>
     </div>
 </div>
 

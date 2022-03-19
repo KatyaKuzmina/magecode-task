@@ -20,25 +20,11 @@
         <a href="services">Services</a>
         <a href="about">About</a>
         <a href="contact">Contact</a>
-        <a href="faq">FAQ</a>
         <input class="signUp-button" type="button" value="SIGN UP" onclick="showHomePage()">
     </div>
 </div>
 
-<div class="section-one">
-    <div class="lending-page-info">
-        <p id="header-one">DIGITAL</p>
-        <p id="header-two">MARKETING</p>
-        <p id="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing. 
-        Vestibulum rutrum metus at enim congue scelerisque. 
-        Sed suscipit metu non iaculis semper consectetur adipiscing elit.</p>
-        <a href="digitalmarketing"><button class="learnMore-button">LEARN MORE</button></a>
-    </div>
-        
-    <div class="lending-page-image">
-        <img src="../images/illustration.jpg" id="illustration">
-    </div>
-</div>
+
 
 <!-- 
 <script>
