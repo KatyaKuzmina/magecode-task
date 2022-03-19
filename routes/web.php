@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+// Open the first (landing page) page
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing-page');
 });
