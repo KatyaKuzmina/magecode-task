@@ -1,4 +1,6 @@
 @media screen and (max-width: 600px) {
+
+/*-----NAVBAR-----*/
     .navbar {
         padding: 30px 15px 0px 10px;
     }
@@ -43,6 +45,8 @@
         text-align: center;
     }
 
+
+/*-----SECTION-ONE-----*/
     .section-one {
         display: flex;
         flex-direction: column;
@@ -94,7 +98,6 @@
         font-weight: bold;
         width: 14.1vw;
         margin-left: 0.5vw;
-
     }
 
     .more {

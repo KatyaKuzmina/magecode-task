@@ -29,11 +29,8 @@
         <li><a><input class="signUp-button" type="button" value="SIGN UP" onclick="showHomePage()"></a></li>
     </div>
 </div>
-<style>
 
-
-
-    </style>
+<!-- FIRST-SECTION -->
 <div class="section-one">
     <div class="lending-page-info">
         <p id="header-one">DIGITAL</p>
@@ -57,7 +54,7 @@ window.location.href="/";
 </script>
 -->
 
-
+<!-- NAVBAR OPENER -->
 <script>
 function myFunction() {
   document.getElementById("right-navbar").classList.toggle("show");

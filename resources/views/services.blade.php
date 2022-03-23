@@ -3,8 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ URL::asset('css/servicesPage.css') }}" />
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/additionalPagesMobile.css') }}"  />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <title>Landing page</title>
 </head>
 <body>
