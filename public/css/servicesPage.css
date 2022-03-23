@@ -51,9 +51,23 @@ body {
     padding-top: 5%;
 }
 
+.heading-one {
+    display: flex;
+    flex-direction: column;
+}
+
+#heading-one {
+    font-size: 20px;
+}
+
+#services-image {
+    width: 100px;
+}
+
 
 .description {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
+

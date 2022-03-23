@@ -12,7 +12,7 @@
 </style>
 <!-- NAVBAR -->
 <div class="navbar">
-    <div class="left-navbar-side">
+    <div class="left-navbar-side" id="myTopnav">
         <a href="http://magecode-task">LOGO</a>
     </div>
     <div class="right-navbar-side">
@@ -21,12 +21,14 @@
         <a href="contact">Contact</a>
         <a href="faq">FAQ</a>
         <input class="signUp-button" type="button" value="SIGN UP" onclick="showHomePage()">
+  </a>
     </div>
 </div>
 
 <div class="section-one">
-    <div class="heading">
-        <p>Our services</p>
+    <div class="heading-one">
+        <p id="heading-one">Our services</p>
+        <p id="heading-one">Our services</p>
     </div>
     <div class="description">
         <div class="description">
@@ -39,6 +41,7 @@
 </div>
 
 <!-- 
+    <img src="../images/services.jpg" id="services-image">
 <script>
 function showHomePage() {
 window.location.href="/";
