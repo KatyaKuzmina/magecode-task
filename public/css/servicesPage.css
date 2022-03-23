@@ -6,11 +6,13 @@ body {
 
 }
 
+/*-----NAVBAR-----*/
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 25px 0px 10px;
+    align-items: center;
 }
 
 .navbar a {
@@ -34,6 +36,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     align-items: center;
     font-size: 1.02vw;
+    overflow: hidden;
+    background-color: white;
+    list-style-type: none;
 }
 
 .signUp-button {
@@ -43,6 +48,10 @@ body {
     background-color: #C6C3F9;
     cursor: pointer;
     font-size: 1.02vw;
+}
+
+.right-navbar-burger {
+    display: none;
 }
 
 .section-one {
@@ -71,3 +80,8 @@ body {
     width: 100%;
 }
 
+#menu {
+    width: auto;
+    height: 25px;
+    cursor: pointer;
+}

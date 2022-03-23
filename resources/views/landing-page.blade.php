@@ -5,7 +5,6 @@
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/homePage.css') }}"  />
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/homePageMobile.css') }}"  />
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Landing page</title>
 </head>
 <body>
@@ -28,9 +27,6 @@
         <li><a href="contact">Contact</a></li>
         <li><a href="faq">FAQ</a></li>
         <li><a><input class="signUp-button" type="button" value="SIGN UP" onclick="showHomePage()"></a></li>
-    </div>
-
-    
     </div>
 </div>
 <style>
