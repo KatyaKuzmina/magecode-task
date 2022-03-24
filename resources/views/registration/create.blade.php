@@ -21,17 +21,6 @@
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" class="form-control" id="email" name="email">
-        </div>
-
-        <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" class="form-control" id="password" name="password">
-        </div>
-
-        <div class="form-group">
-            <label for="password_confirmation">Password Confirmation:</label>
-            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
-        </div>
 
         <div class="form-button">
             <button style="cursor:pointer" type="submit" class="submitBtn">Submit</button>
@@ -39,13 +28,9 @@
     @include('partials.formerrors')
     </form>
         <div class="buttons">
-            <div class="login-button">
-                <label for="login">Already have an account </label>
-                <a class="nav-link" href="/login" id="login">Log In</a>
-            </div>
             <div class="cancel-button">
                 <label for="cancel">Get back </label>
-                <a class="nav-link" href="http://magecode-task" id="cancel">Cancel</a>
+                <a class="nav-link" href="http://magecode-task" id="cancel">Back</a>
             </div>
         </div>
 </body>

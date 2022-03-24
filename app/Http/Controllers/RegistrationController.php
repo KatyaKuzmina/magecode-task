@@ -37,15 +37,17 @@ class RegistrationController extends Controller
     {
         $this->validate(request(), [
             'name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|confirmed'
+            'email' => 'required|email|unique:users,email',
         ]);
 
-        $user = User::create(request(['name', 'email', 'password']));
+        $user = User::create(request(['name', 'email']));
 
         auth()->login($user);
 
-        return redirect()->to('http://magecode-task');
+        return back()->withErrors([
+                'message' => 'The registration was succesful'
+            ]);
+       // return redirect()->to('http://magecode-task');
     }
 
     /**
