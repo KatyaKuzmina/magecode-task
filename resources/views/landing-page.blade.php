@@ -59,13 +59,6 @@
     </div>
 </div>
 
-<!-- 
-<script>
-function showHomePage() {
-window.location.href="/";
-}
-</script>
--->
 
 <!-- NAVBAR OPENER -->
 <script>
@@ -73,14 +66,6 @@ function myFunction() {
     document.getElementById("right-navbar").classList.toggle("show");
 }
 </script>
-
-<!-- 
-<script>
-function openNav() {
-    document.getElementById("right-navbar").style.width = "300px";
-    document.getElementById("right-navbar").style.position = "relative";
-}
-</script> -->
 
 </body>
 </html>
