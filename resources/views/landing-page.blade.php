@@ -26,7 +26,20 @@
         <li><a href="about">About</a></li>
         <li><a href="contact">Contact</a></li>
         <li><a href="faq">FAQ</a></li>
-        <li><a><input class="signUp-button" type="button" value="SIGN UP" onclick="showHomePage()"></a></li>
+        
+            @if( auth()->check() )
+        <li>    
+                    <a class="nav-link">Hi {{ auth()->user()->name }}</a>
+        </li>
+        <li>
+            <a href="logout"><input class="signUp-button" type="button" value="LOG OUT"></a>
+        </li>
+            @else
+        <li>
+            <a href="register"><input class="signUp-button" type="button" value="SIGN UP"></a>
+        </li>    
+            @endif
+        
     </div>
 </div>
 
@@ -57,7 +70,7 @@ window.location.href="/";
 <!-- NAVBAR OPENER -->
 <script>
 function myFunction() {
-  document.getElementById("right-navbar").classList.toggle("show");
+    document.getElementById("right-navbar").classList.toggle("show");
 }
 </script>
 
