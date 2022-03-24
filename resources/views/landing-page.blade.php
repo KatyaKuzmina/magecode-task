@@ -29,7 +29,7 @@
         
             @if( auth()->check() )
         <li>    
-                    <a class="nav-link">Hi {{ auth()->user()->name }}</a>
+                    <a class="greeting">Hi {{ auth()->user()->name }}</a>
         </li>
         <li>
             <a href="logout"><input class="signUp-button" type="button" value="LOG OUT"></a>

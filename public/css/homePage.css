@@ -54,6 +54,10 @@ body {
     display: none;
 }
 
+.greeting {
+    font-weight: bold;
+}
+
 /*-----SECTION-ONE-----*/
 .section-one {
     display: flex;
@@ -113,9 +117,9 @@ body {
     width: 8.5vw;
 }
 
-    .more {
-        width: 8.5vw;
-    }
+.more {
+    width: 8.5vw;
+}
 
 .lending-page-image {
     display: inline-block;

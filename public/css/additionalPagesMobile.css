@@ -42,4 +42,8 @@
         padding-top: 20px;
         text-align: center;
     }
+
+    .greeting {
+        display: none;
+    }
 }
